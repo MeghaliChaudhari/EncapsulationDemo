@@ -17,7 +17,7 @@ public class Customer {
     private long mobileNo;
     private boolean isPremiunMember;
 
-    Customer(String name,String address,String email,String mobileNo,boolean isPremiumMember){
+    Customer(String name,String address,String email,long mobileNo,boolean isPremiumMember){
         this.name = name;
         this.address = address;
         this.email = email;
@@ -25,42 +25,19 @@ public class Customer {
         this.isPremiunMember = isPremiumMember;
 
     }
-
-    public void setName(String name) {
-        this.name = name;
+    Customer(){
+        name = "ABC";
+        address = "PQR";
+        email = "megha@gmail.com";
+        mobileNo = 1234580760L;
+        isPremiunMember = false;
     }
-    public String getName(){
-        return name;
-    }
-
-    public void setAddress(String address) {
-        this.address = address;
-    }
-
-    public String getAddress() {
-        return address;
-    }
-
-    public void setEmail(String email) {
-        this.email = email;
-    }
-    public String getEmail(){
-        return email;
+    public void displayCustomer(){
+        System.out.println("name = " + name);
+        System.out.println("address = "+ address);
+        System.out.println("email = " + email);
+        System.out.println("mobileNo = " + mobileNo);
+        System.out.println("isPreminumMember = "+isPremiunMember);
     }
 
-    public void setMobileNo(long mobileNo) {
-        this.mobileNo = mobileNo;
-    }
-
-    public long getMobileNo() {
-        return mobileNo;
-    }
-
-    public void setPremiunMember(boolean premiunMember) {
-        isPremiunMember = premiunMember;
-    }
-
-    public boolean isPremiunMember() {
-        return isPremiunMember;
-    }
 }

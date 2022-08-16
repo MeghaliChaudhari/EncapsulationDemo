@@ -17,7 +17,7 @@ public class Customer {
     private long mobileNo;
     private boolean isPremiunMember;
 
-    Customer(String name,String address,String email,long mobileNo,boolean isPremiumMember){
+    public Customer(String name,String address,String email,long mobileNo,boolean isPremiumMember){
         this.name = name;
         this.address = address;
         this.email = email;
@@ -25,12 +25,12 @@ public class Customer {
         this.isPremiunMember = isPremiumMember;
 
     }
-    Customer(){
+    public Customer(){
         name = "ABC";
         address = "PQR";
         email = "megha@gmail.com";
         mobileNo = 1234580760L;
-        isPremiunMember = false;
+        isPremiunMember = true;
     }
     public void displayCustomer(){
         System.out.println("name = " + name);

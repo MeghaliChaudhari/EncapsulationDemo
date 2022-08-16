@@ -5,3 +5,35 @@ Isbn no. : 1234567890123
 Author Name : ABC
 
 Process finished with exit code 0
+
+
+
+
+
+
+
+"C:\Program Files\Java\jdk-18.0.1.1\bin\java.exe" -javaagent:C:\Users\Meghali\AppData\Local\JetBrains\Toolbox\apps\IDEA-C\ch-0\221.6008.13\lib\idea_rt.jar=54644:C:\Users\Meghali\AppData\Local\JetBrains\Toolbox\apps\IDEA-C\ch-0\221.6008.13\bin -Dfile.encoding=UTF-8 -classpath "C:\Users\Meghali\OneDrive\Desktop\JAVA PROGRAM\EncapsulationDemo\out\production\EncapsulationDemo" main.CustomerImpl
+name = Meghali
+address = XYZ
+email = megha@gmail.com
+mobileNo = 1234567890
+isPreminumMember = false
+name = ABC
+address = PQR
+email = megha@gmail.com
+mobileNo = 1234580760
+isPreminumMember = true
+No Argument
+name = ABC
+address = PQR
+email = megha@gmail.com
+mobileNo = 1234580760
+isPreminumMember = true
+Argument
+name = Meghali
+address = XYZ
+email = megha@gmail.com
+mobileNo = 1234567890
+isPreminumMember = false
+
+Process finished with exit code 0
